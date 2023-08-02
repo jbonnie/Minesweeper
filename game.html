@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <input type="text" id="mine" readonly>
+            <button id="restart" onclick="location.href='game.html'">Restart</button>
+            <input type="text" id="time" readonly>
+        </header>
+        <div id="board"></div>
+        <footer>
+            <div id="context">
+                <p>* left click: open / right click: flag</p>
+                <p id="sign">@Bonnie</p>
+            </div>
+            <button id="home" onclick="location.href='index.html'">Home</button>
+        </footer>
+    </div>
+</body>
+</html>
